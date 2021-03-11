@@ -25,3 +25,10 @@ For our project, we will be creating a classifier capable of determining a dogâ€
 [Inception v3](https://drive.google.com/file/d/1JxwztvF40rz28CJtgqwm3e70j2AsNFPk/view?usp=sharing)
 
 [ResNeXt 50](https://drive.google.com/file/d/1HjYX76gJkZx6YWPcRGKdt_OHCVDaWEBA/view?usp=sharing)
+
+
+# Dog Breed Classification!
+### Current best accuracy: 92%
+
+### Upload your doggy image for classification!
+![](images/bio-photo.jpg)
