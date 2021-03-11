@@ -31,4 +31,7 @@ For our project, we will be creating a classifier capable of determining a dogâ€
 ### Current best accuracy: 92%
 
 ### Upload your doggy image for classification!
-![](images/bio-photo.jpg)
+<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+</form>
