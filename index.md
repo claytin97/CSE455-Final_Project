@@ -31,7 +31,13 @@ For our project, we will be creating a classifier capable of determining a dogâ€
 ### Current best accuracy: 92%
 
 ### Upload your doggy image for classification!
-<form action="/action_page.php">
-  <input type="file" id="myFile" name="filename">
-  <input type="submit">
-</form>
+<script>
+var loadFile = function(event) {
+	var image = document.getElementById('output');
+	image.src = URL.createObjectURL(event.target.files[0]);
+};
+</script>
+
+<input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;">
+
+<img id="output" width="299" />	
