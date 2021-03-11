@@ -4,7 +4,7 @@
 ### Introduction
 Group members: Dingyu Zhang (dyzhang1), Yixiao Li (yixiaoli), Yifan Zhuo (zhouyf98), Katherine Cai (klc715)
 
-Website/Implementation: https://github.com/claytin97/cse455-final-project
+Website/Implementation: https://claytin97.github.io/cse455-final-project/
 
 Problem: Create a classifier capable of determining a dog’s breed in an image. 
 Algorithms/Techniques: Convolutional Neural Network, Transfer Learning, Inception Neural Network
