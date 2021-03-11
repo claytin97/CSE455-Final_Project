@@ -4,7 +4,7 @@
 ### Introduction
 **Group members:** Dingyu Zhang (dyzhang1), Yixiao Li (yixiaoli), Yifan Zhuo (zhouyf98), Katherine Cai (klc715)
 
-**Website/Implementation:** https://claytin97.github.io/cse455-final-project/
+**Website/Implementation:** https://claytin97.github.io/CSE455-Final_Project/
 
 **Problem:** Create a classifier capable of determining a dog’s breed in an image. 
 
