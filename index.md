@@ -1,44 +1,27 @@
-## Welcome to GitHub Pages
+# CSE 455 Final Project
 
-You can use the [editor on GitHub](https://github.com/claytin97/cse455-final-project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Dog Breed Identification Competition
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Group members:** Dingyu Zhang (dyzhang1), Yixiao Li (yixiaoli), Yifan Zhuo (zhouyf98), Katherine Cai (klc715)
 
-### Markdown
+### Problem
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Create a classifier capable of determining a dog’s breed in an image. 
 
-```markdown
-Syntax highlighted code block
+### Algorithms/Techniques
 
-# Header 1
-## Header 2
-### Header 3
+Convolutional Neural Network, Transfer Learning, Inception Neural Network
 
-- Bulleted
-- List
+### Dataset 
 
-1. Numbered
-2. List
+Stanford Dogs Dataset
 
-**Bold** and _Italic_ and `Code` text
+### Description
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/claytin97/cse455-final-project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-# Dog Breed Classification
-## Dog Breed Identification Kaggle Competition\
+For our project, we will be creating a classifier capable of determining a dog’s breed in an image. We will be using the Stanford Dogs Dataset, provided by a [Kaggle Competition](https://www.kaggle.com/c/dog-breed-identification), to train our classifier. We will apply techniques taught in this class such as the convolutional neural network and feature extraction, but we will also explore more advanced ones like transfer learning to make our model even better. At the end of the project, we hope to host our model on a server and build a dog breed scanner web app so that internet users can upload pictures of a dog and learn its breed!
 
 ### Experiment reports with transfer learning:
-Inception v3: [Link](https://drive.google.com/file/d/1JxwztvF40rz28CJtgqwm3e70j2AsNFPk/view?usp=sharing)
-ResNeXt 50: [Link](https://drive.google.com/file/d/1HjYX76gJkZx6YWPcRGKdt_OHCVDaWEBA/view?usp=sharing)
+
+[Inception v3](https://drive.google.com/file/d/1JxwztvF40rz28CJtgqwm3e70j2AsNFPk/view?usp=sharing)
+
+[ResNeXt 50](https://drive.google.com/file/d/1HjYX76gJkZx6YWPcRGKdt_OHCVDaWEBA/view?usp=sharing)
