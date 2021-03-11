@@ -31,42 +31,9 @@ For our project, we will be creating a classifier capable of determining a dogâ€
 ### Current best accuracy: 92%
 
 ### Upload your doggy image for classification!
-<script type='text/javascript'>
+<form action="/action_page.php">
+  <input type="file"  accept="image/gif, image/jpeg, image/png" name="image" id="file" style="display: none;">
+  <input type="submit">
+</form>
 
-function main()
-{
-    var inputFileToLoad = document.createElement("input");
-    inputFileToLoad.type = "file";
-    inputFileToLoad.id = "inputFileToLoad";
-    document.body.appendChild(inputFileToLoad);
-
-    var buttonLoadFile = document.createElement("button");
-    buttonLoadFile.onclick = loadImageFileAsURL;
-    buttonLoadFile.textContent = "Load Selected File";
-    document.body.appendChild(buttonLoadFile);
-}
-
-function loadImageFileAsURL()
-{
-    var filesSelected = document.getElementById("inputFileToLoad").files;
-    if (filesSelected.length > 0)
-    {
-        var fileToLoad = filesSelected[0];
-
-        if (fileToLoad.type.match("image.*"))
-        {
-            var fileReader = new FileReader();
-            fileReader.onload = function(fileLoadedEvent) 
-            {
-                var imageLoaded = document.createElement("img");
-                imageLoaded.src = fileLoadedEvent.target.result;
-                document.body.appendChild(imageLoaded);
-            };
-            fileReader.readAsDataURL(fileToLoad);
-        }
-    }
-}
-
-main();
-
-</script>
+<img id="output" width="299" />	
