@@ -31,13 +31,16 @@ For our project, we created a classifier capable of determining a dog’s breed 
 [ResNeXt 50 and Inception v3 Architecture Comparison](https://drive.google.com/file/d/1aJ6r_URVzbdJRwc8xiLvLNBAqQ-O6gJ6/view?usp=sharing)
 
 
-# Dog Breed Classification!
-### Current best accuracy: 92%
+# [Dog Breed Classification!](https://master.d3jonbje051vgo.amplifyapp.com/)
 
-### Upload your doggy image for classification!
-<form action="/action_page.php">
-  <input type="file"  accept="image/gif, image/jpeg, image/png" name="image" id="file" style="display: none;">
-  <input type="submit">
-</form>
+# Video
 
-<img id="output" width="299" />	
+## Discussions:
+### What problems did you encounter?
+We have attempted to use large and sophisticated neural network models such as ResNeXt 50 and 101 to improve our classification task accuracy. However, due to the technical resource contraints (GPU memory is limited for Google colab and Kaggle notebook), we were not able to fine tune the pre-trained model.
+
+In addition, the Kaggle Dog Breed Identification competition dataset was not well prepared for directly using dataloaders to load the data samples and labels for training. We needed to spend a significant amount of time figuring out how to access the data and transform the data in order to train our neural network models.
+
+### Are there next steps you would take if you kept working on the project?
+
+### How does your approach differ from others? Was that beneficial?
