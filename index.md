@@ -2,21 +2,21 @@
 
 **Group members:** Dingyu Zhang (dyzhang1), Yixiao Li (yixiaoli), Yifan Zhuo (zhouyf98), Katherine Cai (klc715)
 
-### Problem we tackled
+### Problem we tackled:
 
 Create a classifier capable of determining a dog’s breed in an image. 
 
-### Algorithms/Techniques we used
+### Algorithms/Techniques we used:
 
 Convolutional Neural Network, Transfer Learning, Inception Neural Network, ResNeXt Neural Network
 
-### Dataset 
+### Dataset:
 
-Stanford Dogs Dataset
+[Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 
-### Introduction
+### Introduction:
 
-For our project, we created a classifier capable of determining a dog’s breed in an image. We used the Stanford Dogs Dataset, provided by a [Kaggle Competition](https://www.kaggle.com/c/dog-breed-identification), to train our classifier. We applied techniques taught in this class such as the convolutional neural network and feature extraction, and also explored more advanced ones like transfer learning to make our model even better. We hosted our model on a server and built a dog breed scanner web app so that internet users can upload pictures of a dog and learn its breed!
+For our project, we created a classifier capable of determining a dog’s breed in an image. We used the Stanford Dogs Dataset, provided by a [Kaggle Competition](https://www.kaggle.com/c/dog-breed-identification), to train our classifier. We applied techniques taught in this class such as the convolutional neural network and feature extraction, and also explored more advanced ones like transfer learning to make our model even better. In particular, we experimented with ResNeXt and Inception neural networks. We hosted our model on a server and built a dog breed scanner web app so that internet users can upload pictures of a dog and learn its breed!
 
 ### Experiment reports with transfer learning:
 
@@ -33,11 +33,11 @@ For our project, we created a classifier capable of determining a dog’s breed 
 From our experiments applying transfer learning to pretrained neural network models, we have tuned a good set of hyperparameters such as the learning rate and weight decay. The set of best hyperparameters allows our model to attain the highest classification accuracy on the validation dataset. By applying data augmentation, we are able to make our model generalize better to unseen data samples. We also utilized the step learning rate scheduler to further minimize the model's loss. Through using the pretrained neural network models as feature extractors, we were able to keep the pretrained information in the model and utilize such information to regularize our model. By creating the online dog breed classification application, we are able to further examine our model's performance by using it to classify any image found on the internet.
 
 
-# [Dog Breed Classification!](https://master.d3jonbje051vgo.amplifyapp.com/)
+# [Dog Breed Classification App!](https://master.d3jonbje051vgo.amplifyapp.com/)
 
 ## [Project Presentation Video](https://www.youtube.com/watch?v=s99BOFDfnV0)
 
-## Discussions:
+## Discussion:
 ### What problems did you encounter?
 We have attempted to use large and sophisticated neural network models such as ResNeXt 50 and 101 to improve our classification task accuracy. However, due to the technical resource contraints (GPU memory is limited for Google colab and Kaggle notebook), we were not able to fine tune the pre-trained model.
 
