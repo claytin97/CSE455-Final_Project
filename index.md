@@ -1,16 +1,14 @@
-# CSE 455 Final Project
-
 ## Dog Breed Identification Competition
 
 **Group members:** Dingyu Zhang (dyzhang1), Yixiao Li (yixiaoli), Yifan Zhuo (zhouyf98), Katherine Cai (klc715)
 
-### Problem
+### Problem we tackled
 
 Create a classifier capable of determining a dog’s breed in an image. 
 
-### Algorithms/Techniques
+### Algorithms/Techniques we used
 
-Convolutional Neural Network, Transfer Learning, Inception Neural Network
+Convolutional Neural Network, Transfer Learning, Inception Neural Network, ResNeXt Neural Network
 
 ### Dataset 
 
