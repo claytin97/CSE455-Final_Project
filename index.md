@@ -47,3 +47,4 @@ In addition, the Kaggle Dog Breed Identification competition dataset was not wel
 We would like to look into more sophisticated data augmentation techniques to make our model perform better on unseen data. We would also like to experiment with neural network ensemble to examine the effects of such technique on improving our classification accuracy.
 
 ### How does your approach differ from others? Was that beneficial?
+By creating an application to classify any images found on the internet, we are able to directly examine what type of images our model have trouble making correct predictions. This way, we can look into more specific data augmentation techniques to try. In other words, we have created a method to directly examine the "deficiencies" of our model through using it.
