@@ -35,7 +35,8 @@ From our experiments applying transfer learning to pretrained neural network mod
 
 # [Dog Breed Classification!](https://master.d3jonbje051vgo.amplifyapp.com/)
 
-## [Project Presentation Video](https://www.youtube.com/watch?v=s99BOFDfnV0)
+## Project Presentation Video
+https://www.youtube.com/watch?v=s99BOFDfnV0
 
 ## Discussions:
 ### What problems did you encounter?
