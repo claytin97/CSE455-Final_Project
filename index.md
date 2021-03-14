@@ -8,7 +8,7 @@ Create a classifier capable of determining a dog’s breed in an image.
 
 ### Algorithms/Techniques we used:
 
-Convolutional Neural Network, Transfer Learning, Inception Neural Network, ResNeXt Neural Network
+Convolutional Neural Network, Transfer Learning, Inception Neural Network, ResNeXt Neural Network, Data Augmentation
 
 ### Dataset:
 
@@ -30,7 +30,7 @@ For our project, we created a classifier capable of determining a dog’s breed 
 
 ### Our Approach:
 
-From our experiments applying transfer learning to pretrained neural network models, we have tuned a good set of hyperparameters such as the learning rate and weight decay. The set of best hyperparameters allows our model to attain the highest classification accuracy on the validation dataset. By applying data augmentation, we are able to make our model generalize better to unseen data samples. We also utilized the step learning rate scheduler to further minimize the model's loss. Through using the pretrained neural network models as feature extractors, we were able to keep the pretrained information in the model and utilize such information to regularize our model. By creating the online dog breed classification application, we are able to further examine our model's performance by using it to classify any image found on the internet.
+From our experiments applying transfer learning to pretrained neural network models, we have tuned a good set of hyperparameters such as the learning rate, weight decay and the fully-connected layer. The set of best hyperparameters allows our model to attain very high classification accuracy on the validation dataset. By applying data augmentation, we are able to examine good and bad techniques to make our model generalize better to unseen data samples. The attempted data augmentation techniques including RandomErasing and RandomResizedCrop provided meaningful insights into the data samples such as the kind of training samples that reduces our model's classification accuracy. We also utilized the step learning rate scheduler to further minimize the model's loss. Through using the pretrained neural network models as feature extractors, we were able to keep the pretrained information in the model and utilize such information to regularize our model to obtain better generalization performance. By creating the online dog breed classification application, we are able to further examine our model's performance by using it to classify any image found on the internet.
 
 
 # [Dog Breed Classification App!](https://master.d3jonbje051vgo.amplifyapp.com/)
